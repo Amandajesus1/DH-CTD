@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+#cacau {
+    width: 150px;
+    
+}
+textarea{
+    resize: none;
+}
+main {
+    width: 50%;
+
+}

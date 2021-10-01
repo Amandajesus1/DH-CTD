@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+button {
+    margin: 50px;
+    border: 0;
+    border-radius: 5px;
+    padding:  15px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: pink;
+    color:black;
+
+    transition: background-color, 0.30;
+    color: 0.30s;
+}
+
+button :hover{
+    background-color: palegreen;
+    color: red;
+}
+
+div {
+    margin: 50px;
+    padding: 90px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: saddlebrown;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transform: scale(0.5) rotate(30deg);
+}
+
+div :hover {
+    animation: deslizar 5s normal;
+}
+
+@keyframes deslizar {
+    0% { opacity: 0%;}
+    50% { opacity: 100%; transform: translateX(400px) rotate(15deg);}
+    100% { opacity: 0% transform: scale(2);}
+}

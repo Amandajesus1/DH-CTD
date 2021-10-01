@@ -12,3 +12,7 @@ p {color:black}
 #pg{color: black;}
 .text {color:#003F63}
 span {color: black;}
+:hover {
+    background: rgb(73, 131, 136);
+}
+:focus

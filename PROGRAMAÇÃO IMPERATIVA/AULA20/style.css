@@ -1,0 +1,38 @@
+
+@media screen {
+    
+}
+body header {
+    background-color: salmon;
+    grid-area: header;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+body aside {
+    background-color: crimson;
+    grid-area: aside;
+    height: 500px;
+    text-align: center;
+}
+body main {
+    background-color: deepskyblue;
+    grid-area: main;
+    text-align: center;
+}
+body footer {
+    background-color: lightpink;
+    grid-area: footer;
+    height: 91px;
+    text-align: center;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+}
