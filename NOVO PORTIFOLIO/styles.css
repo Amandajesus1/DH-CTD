@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Francois+One&family=Great+Vibes&family=Josefin+Slab:wght@100&family=Mukta:wght@200&family=Righteous&family=Sarala:wght@400;700&family=Space+Mono&family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position:  relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between ;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #f67280;;
+}
+.texto{
+    color: white;
+}
+
+.nome{
+    color: white;
+    font-size: none;
+    background-color: #e6867a;
+    text-align: center;
+    border-radius: 90px;
+    display: table;
+    padding: 8px;
+    font-family: "Work Sans";
+}
+
+.nome:hover{
+background-color: rosybrown;
+
+}
+.git{
+    color: tomato;
+}
+
+.detel {
+    margin-left: 8%;
+    margin-top: 13%;
+} 
+
+.detel h1{
+    font-size:  50px;
+    color: #f67280;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #ffe4aa
+}
+
+.detel p{
+    color: #f2e9e6;
+    line-height: 22px ;
+}
+
+.detel a{
+    background: #e6867a;
+    padding:  10px 18px;
+    text-decoration:  none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.imagens {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+.imagens img{
+    height:  100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50);
+    transition: bottom 1s; left: 1s;
+}
+.imagens:hover .shape {
+    bottom: 40px;
+}
+
+.imagens:hover .girl {
+    left:  40%;
+    transition: all 2s;
+}
